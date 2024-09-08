@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device.width, intial scale=1.0">
+        <title>Yinkid Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b1d8310b54.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="mainheader">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#portfolio">My Work</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header">
+                <div class="header-col-4">
+            <div class="header-text">
+                <p>...SOLVING WEB PROBLEMS</p>
+                <h1>Hello, I am <span>Yinkid</span><br>From Nigeria</h1>
+                </div>
+            </div>
+            <div class="header-col-3">
+                <img src="images/Yinkid 1.jpg">
+            </div>
+            </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Yinkid 2.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>You can call me YINKID. I derive pleasure in finding solution to tech problems. Be it in Web2 or Web3, I will always be engaged in problem solving.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education/Certification</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Frontend</li>
+                                <li><span>Content Creation</span><br>Visual and written contents</li>
+                                <li><span>Community Management</span><br>Web 3 projects</li>
+                                <li><span>SEO</span><br>Google map location</li>
+                                <li><span>Canva</span><br>Graphics Design</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2018</span><br>Social Media Management</li>
+                                <li><span>2019</span><br>PHP programming</li>
+                                <li><span>2020</span><br>HTML</li>
+                                <li><span>2024</span><br>Web3 Project Ambassador</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018-2022</span><br>Computer Science BSc</li>
+                                <li><span>2023</span><br>Google Technical Support Fundamentals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2><b>WEB 3</b></h2>
+                        <p>Web3 projects I've worked for</p>
+                        <br><p>Ambassador for <a href="https://x.com/swisstronik">SWISSTRONIK</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2><b>Social Media Management</b></h2>
+                        <p>Pages I have managed</p>
+                        <br><a href="https://www.instagram.com/tabokschool/">Tabok Schools</a>
+                        <br><a href="https://www.instagram.com/mfmijedeyc/">MFM Ijede youth church</a></br>
+                        <a href="#socialmedia">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2><b>SEO</b></h2>
+                        <p>I create Google business accounts for companies, and site their business location on Google map</p>
+                        <a href="#crypto">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work" id="websites">
+                        <img src="images/programmin (2).jpg">
+                        <div class="layers">
+                            <h3><b>WEB DEVELOPMENT</b></h3>
+                            <h4><p><b>Websites developed by me</b></p></h4>
+                            <br><a href="https://yinkid.netlify.app">My Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="work" id="Graphics">
+                        <img src="images/Graphics1.jpg">
+                        <div class="layer">
+                            <h3><b>GRAPHICS DESIGN</b></h3>
+                            <h4><p><b>Graphics designed by me</b></p></h4>
+                            <a href="https://drive.google.com/drive/folders/1R_NU9GVLmP1s4Voqq5a7rBWL9AvNejoW?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                    </div>
+                    <div class="work" id="Video">
+                        <img src="images/video.jpg">
+                        <div class="layer">
+                            <h3><b>VIDEO EDITING</b></h3>
+                            <h4><p><b>Videos edited by me</b></p></h4>
+                            <a href="$"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <a href="&" class="mtn">See more</a>
+            </div>
+        </div>
+
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-duotone fa-at"></i>yinkidmax@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone-volume"></i> +2348151267997</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/yinkiid/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/YinkidMax"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/yinkidmax/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/elijahokeowo/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/CV@Elijah Okeowo.docx" download class="mtn mtn2">Download CV</a>
+            </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="mtn mtn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">Copyright @ Yinkid, 2024</div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-links");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-links");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.left = "0";
+        }
+        function closemenu(){
+            sidemenu.style.left = "-200px";
+        }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxWFYuRU5B-lPkpNnU_d57YJq_rptP0itXCAzkpYQ5l3S0RjBtbY08NAhVbHtwmrbeZFA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
